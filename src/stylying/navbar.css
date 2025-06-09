@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.navbar-section {
+  width: 100vw;
+  background-color: white;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.navbar {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: #005bbb;
+  font-weight: 700;
+  margin-right: 32px;
+}
+
+.navbar-center {
+  display: flex;
+  gap: 32px;
+  font-size: 1rem;
+  list-style: none;
+  align-items: center;
+  margin: 12px;
+  padding: 0;
+}
+
+.navbar-center li {
+  color: #333; 
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.navbar-center .new-badge {
+  position: relative;
+}
+
+.badge {
+  font-size: 0.65rem;
+  background-color: orange;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 8px;
+  margin-left: 4px;
+  vertical-align: top;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin: 12px;
+}
+
+.call-icon {
+  background-color: #0066d3;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-btn {
+  padding: 8px 16px;
+  border: 2px solid #0066d3;
+  background: white;
+  color: #0066d3;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.green-banner {
+  width: 100%;
+  background-color: #009879;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.95rem;
+}
+
+.highlight {
+  color: #f9e416;
+  font-weight: 600;
+}
+

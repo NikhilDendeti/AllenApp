@@ -1,0 +1,16 @@
+.results-section {
+  padding: 40px 0;
+  background-color: aliceblue ;
+}
+
+.results-image{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.results-image img {
+  max-width: 100%;
+  height: 500px;
+}
+
