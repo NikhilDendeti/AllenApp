@@ -1,0 +1,87 @@
+.testimonial-section {
+  background-color: #f2f6ff;
+  padding: 4rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e1e1e;
+  display: block;
+  margin-bottom: 3rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-wrap: nowrap; 
+  gap: 2rem;
+  justify-content: flex-start;
+  overflow-x: auto; 
+  padding-bottom: 1rem; 
+}
+
+.testimonial-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 300px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-shrink: 0; 
+}
+
+.quote-container {
+  position: relative;
+  height: 40px;
+}
+
+.quote {
+  position: absolute;
+  top:1rem;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  opacity: 0.8; 
+}
+
+
+.content {
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: #333333;
+  line-height: 1.6;
+}
+
+.student-info {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.student-image {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.name {
+  font-weight: 700;
+  color: #1e1e1e;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.details {
+  color: #555555;
+  font-size: 1.0rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

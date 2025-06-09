@@ -6,6 +6,7 @@ import StudentSuccess from './components/StudentSuccess';
 import AppAdvantage from './components/AppAdvantages';
 import CallbackForm from './components/Form';
 import Footer from './components/Footer';
+import Testimonials from './components/Testimonials';
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
     <CoursePicker />
     <StudentSuccess />
     <AppAdvantage />
+    <Testimonials />
     <CallbackForm />
     <Footer />
     </>
