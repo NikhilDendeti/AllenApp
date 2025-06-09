@@ -5,7 +5,7 @@ import CoursePicker from './components/CoursePicker';
 import StudentSuccess from './components/StudentSuccess';
 import AppAdvantage from './components/AppAdvantages';
 import CallbackForm from './components/Form';
-
+import Footer from './components/Footer';
 function App() {
   return (
     <>
@@ -15,6 +15,7 @@ function App() {
     <StudentSuccess />
     <AppAdvantage />
     <CallbackForm />
+    <Footer />
     </>
   );
 }

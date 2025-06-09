@@ -1,0 +1,1 @@
+import '../stylying/testimonials.css';
