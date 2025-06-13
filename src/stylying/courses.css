@@ -1,0 +1,95 @@
+.courses {
+  padding-top: 50px;
+  padding-left: 150px;
+  background-color: aliceblue;
+}
+
+.courses h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: black;
+  padding-bottom:12px ;
+}
+
+.courses p {
+  font-size: 16px;
+}
+
+.courses h4 {
+    font-size: 18px;
+    color: black;
+    padding-bottom: 8px;
+}
+
+.underline {
+  border: none;
+  height: 1px;
+  background-color: rgb(145, 137, 132);
+  width: 100%; 
+  margin-top: 5px;
+
+  
+}
+
+.courses-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    margin:16px
+}
+
+.courses-card img {
+    height: 30px;
+    width: 50px;
+    height: auto;
+    border-radius: 10px;
+    padding-left: 8px;
+}
+
+.courses-card h5 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: black;
+    padding-left: 8px;
+}
+.courses-card p {
+    font-size: 14px;
+    color: #555;
+    padding-left: 8px;
+}
+
+.courses-price {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses-price h6 {
+    margin-top: 12px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    padding-left: 12px;
+}
+
+.courses-details {
+    color: black;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 10px;
+    padding-left: 24px;
+}
+
+.courses-container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 12px;
+}
+

@@ -1,0 +1,132 @@
+.course-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-color: #eef5ff;
+}
+
+.headcourse {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #1e1e1e;
+  margin-bottom: 2rem;
+}
+
+.part1content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.class-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  padding: 28px;
+  margin-bottom: 30px; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.class-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.badge-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.badge {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 14px;
+}
+
+.default-badge {
+  background-color: #000;
+  color: #fff;
+}
+
+.scholarship {
+  background-color: #f7941e;
+  color: white;
+}
+
+.course-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1e1e1e;
+  margin-bottom: 6px;
+}
+
+.course-description {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 14px;
+}
+
+.course-features {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 16px;
+}
+
+.course-features li {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.tick {
+  color: #007bff;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.join {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.course-price {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e1e1e;
+}
+
+.course-tax-note {
+  font-size: 11px;
+  color: #666;
+  margin-left: 5px;
+}
+
+.course-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #0047ff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+hr {
+  margin-bottom: 30px; 
+}

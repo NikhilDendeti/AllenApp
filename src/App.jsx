@@ -1,24 +1,26 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import ResultsSection from './components/ResultsSection';
-import CoursePicker from './components/CoursePicker';
-import StudentSuccess from './components/StudentSuccess';
-import AppAdvantage from './components/AppAdvantages';
-import CallbackForm from './components/Form';
 import Footer from './components/Footer';
-import Testimonials from './components/Testimonials';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Pages/Home';
+import Courses from './Pages/Courses';
+import Testseries from '../src/components/Testseries'
+import ResultsPage from './components/Results';
+import More from './components/More';
 function App() {
   return (
-    <>
+    <BrowserRouter>
     <Navbar />
-    <ResultsSection />
-    <CoursePicker />
-    <StudentSuccess />
-    <AppAdvantage />
-    <Testimonials />
-    <CallbackForm />
-    <Footer />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/courses" element={<Courses />} />
+      <Route path="/testseries" element={<Testseries />} />
+      <Route path="/results" element={<ResultsPage />} />
+      <Route path="/more" element={<More />} />
+
+    </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

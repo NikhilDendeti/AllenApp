@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaPhoneAlt } from 'react-icons/fa';
 import '../stylying/navbar.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () =>{
     return (
@@ -8,19 +9,21 @@ const Navbar = () =>{
         <div className="navbar-section">
         <div className="navbar">
             <div className="nav-left">
+            <Link to="/">
             <h1 className="logo">ALLEN</h1>
+            </Link>
             </div>
 
             <ul className="navbar-center">
-            <li>Courses</li>
-            <li>Tests</li>
-            <li className="new-badge">
+            <Link to = "/courses">Courses</Link>
+            <Link to = "/testseries">Tests</Link>
+            <Link to ="/results" className="new-badge">
                 Results <span className="badge">NEW</span>
-            </li>
+            </Link>
             <li>Study Materials</li>
             <li>Scholarships</li>
             <li>Books</li>
-            <li>More</li> 
+            <Link to="/more">More</Link>
             </ul>
 
             <div className="navbar-right">
